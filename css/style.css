@@ -44,15 +44,39 @@ a {
 
 .title {
   margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  /* font: 400 60px / 60px Arial; */
+  color: #333;
 }
 
-.heading2, .heading3 {
+.heading2 {
   margin-bottom: 10px;
+
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+}
+
+.heading3 {
+  margin-bottom: 10px;
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
 }
 
 .text {
   margin-bottom: 40px;
   width: 872px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
 }
 
 .block-links {
@@ -60,33 +84,32 @@ a {
   margin-bottom: 50px;
 }
 
-.link {
+.link-box {
   display: inline-block;
   padding: 24px 49px;
 }
 
-.block-links .link {
+.link-box-text {
   font-weight: 700;
   font-size: 18px;
   background-color: #3f2aff;
 }
 
-.block-links .link:not(:last-child) {
+.block-links .link-box:not(:last-child) {
   margin-right: 25px;
 }
 
-.link-download-text {
+.link-box .text-download {
   font-weight: 700;
   font-size: 18px;
 
   color: #3f2aff;
 }
 
-.link-download-icon {
+.icon-left {
   display: inline-block;
   padding-left: 36px;
 
-  background-image: url("/img/download.png");
   background-position: left center;
   background-size: 18px;
   background-repeat: no-repeat;
@@ -96,18 +119,33 @@ a {
   margin-bottom: 40px;
 }
 
-.ulist {
+.ulist-content {
+  margin-bottom: 20px;
   padding-left: 15px;
 }
 
-.item:not(:last-child) {
+.ulist-content .item-content::marker {
+  color: #3f2aff;
+}
+
+.item-content:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.item-content .link {
+  padding: inherit;
+  border-bottom: 1px solid #3f2aff;
+
+  font-size: 20px;
+  color: #3f2aff;
 }
 
 .figure-block {
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
+
+  font-size: 0;
 }
 
 .figure-block .image {
@@ -115,11 +153,26 @@ a {
   min-width: 100%;
 }
 
+.figure-block .caption {
+  padding: 19px 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+
+  border: 1px solid #b6b6b6;
+  border-top: none;
+}
+
 .gray-block {
   margin: 0;
   padding: 30px;
   background-color: #f3f3f3;
   border-radius: 20px;
+
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .gray-block:not(:last-child) {
@@ -129,4 +182,29 @@ a {
 .gray-block .text {
   margin-bottom: 10px;
   width: 692px;
+}
+
+.blue-block {
+  display: inline-block;
+  padding: 50px 95px;
+  width: 100%;
+
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+
+  background-color: #3f2aff;
+  border-radius: 20px;
+}
+
+.icon-download {
+  background-image: url("/img/download.png");
+}
+
+.image-books {
+  background-image: url(/img/decorate-1.png);
+}
+
+.image-snowflake {
+  background-image: url(/img/decorate-2.png);
 }
