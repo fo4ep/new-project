@@ -38,7 +38,6 @@ a {
 }
 
 .logo {
-  display: inline-block;
   margin-bottom: 50px;
 }
 
@@ -48,7 +47,6 @@ a {
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
-  /* font: 400 60px / 60px Arial; */
   color: #333;
 }
 
@@ -80,26 +78,26 @@ a {
 }
 
 .block-links {
-  display: inline-block;
   margin-bottom: 50px;
 }
 
 .link-box {
   display: inline-block;
   padding: 24px 49px;
+
+  background-color: #3f2aff;
 }
 
 .link-box-text {
   font-weight: 700;
   font-size: 18px;
-  background-color: #3f2aff;
 }
 
 .block-links .link-box:not(:last-child) {
   margin-right: 25px;
 }
 
-.link-box .text-download {
+.link-download-text {
   font-weight: 700;
   font-size: 18px;
 
@@ -107,11 +105,9 @@ a {
 }
 
 .icon-left {
-  display: inline-block;
-  padding-left: 36px;
+  padding-left: 30px;
 
   background-position: left center;
-  background-size: 18px;
   background-repeat: no-repeat;
 }
 
@@ -133,7 +129,6 @@ a {
 }
 
 .item-content-link {
-  padding: inherit;
   border-bottom: 1px solid #3f2aff;
 
   font-size: 20px;
@@ -149,7 +144,7 @@ a {
 }
 
 .figure-block .image {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   min-width: 100%;
 }
 
@@ -198,13 +193,13 @@ a {
 }
 
 .icon-download {
-  background-image: url("/img/download.png");
+  background-image: url("../img/download.png");
 }
 
 .image-books {
-  background-image: url(/img/decorate-1.png);
+  background-image: url("../img/decorate-1.png");
 }
 
 .image-snowflake {
-  background-image: url(/img/decorate-2.png);
+  background-image: url("../img/decorate-2.png");
 }
