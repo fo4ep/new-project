@@ -159,7 +159,7 @@ a {
   border-top: none;
 }
 
-.gray-block {
+.select-block {
   margin: 0;
   padding: 30px;
   background-color: #f3f3f3;
@@ -170,16 +170,16 @@ a {
   background-repeat: no-repeat;
 }
 
-.gray-block:not(:last-child) {
+.select-block:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.gray-block .text {
+.select-block .text {
   margin-bottom: 10px;
   width: 692px;
 }
 
-.blue-block {
+.select-text-block {
   display: inline-block;
   padding: 50px 95px;
   width: 100%;
