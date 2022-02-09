@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/RobotoRegular.woff2') format('woff2'),
+       url('../fonts/RobotoRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('../fonts/RobotoBold.woff2') format('woff2'),
+       url('../fonts/RobotoBold.woff') format('woff');
+}
+
 html {
   box-sizing: border-box;
 }
@@ -215,6 +229,8 @@ a {
 .button-back {
   margin-bottom: 25px;
 
+  font-family: Roboto, Arial;
+  font-weight: 100;
   font-size: 20px;
   color: #3f2aff;
 }
@@ -226,6 +242,8 @@ a {
 .title-modules {
   margin-bottom: 50px;
 
+  font-family: Roboto, Arial;
+  font-weight: 700;
   font-size: 60px;
   color: #3f2aff;
 }
@@ -263,11 +281,15 @@ a {
 }
 
 .card-heading {
+  font-family: Roboto, Arial;
+  font-weight: 700;
   font-size: 40px;
   color: #3f2aff;
 }
 
 .card-item {
+  font-family: Roboto, Arial;
+  font-weight: 400;
   font-size: 20px;
   line-height: 165%;
   color: #333333;
@@ -278,6 +300,8 @@ a {
   right: 25px;
   bottom: 25px;
 
+  font-family: Roboto, Arial;
+  font-weight: 700;
   font-size: 40px;
   color: #eaeaea;
 }
@@ -290,9 +314,12 @@ a {
 .button-more {
   padding: 25px 75px;
 
-  border: 2px solid #3f2aff;
+  font-family: Roboto, Arial;
+  font-weight: 700;
   font-weight: bold;
   font-size: 18px;
+
+  border: 2px solid #3f2aff;
   color: #3f2aff;
 }
 
