@@ -33,12 +33,20 @@ a {
 
 .container {
   margin: 0 auto;;
-  padding: 80px 0;
+  padding: 50px 0;
   width: 1170px;
+}
+
+.body-backcolor {
+  font-size: 0;
 }
 
 .logo {
   margin-bottom: 50px;
+}
+
+.mini-logo {
+  margin-bottom: 25px;
 }
 
 .title {
@@ -202,4 +210,81 @@ a {
 
 .image-snowflake {
   background-image: url("../img/decorate-2.png");
+}
+
+.button-back {
+  margin-bottom: 25px;
+
+  font-size: 20px;
+  color: #3f2aff;
+}
+
+.arrow {
+  vertical-align: 3px;
+}
+
+.title-modules {
+  margin-bottom: 50px;
+
+  font-size: 60px;
+  color: #3f2aff;
+}
+
+.card-box {
+  margin-bottom: 25px;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 25px;
+
+  background-color: white;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(2n+1) {
+  margin-right: 25px;
+}
+
+.card-heading {
+  font-size: 40px;
+  color: #3f2aff;
+}
+
+.card-text-block {
+  position: relative;
+  padding: 25px;
+  height: 325px;
+}
+
+.card-item {
+  display: block;
+
+  font-size: 20px;
+  line-height: 165%;
+  color: #333333;
+}
+
+.card-number {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+
+  font-size: 40px;
+  color: #eaeaea;
+}
+
+.jcenter {
+  display: flex;
+  justify-content: center;
+}
+
+.button-more {
+  padding: 25px 75px;
+
+  border: 2px solid #3f2aff;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3f2aff;
 }
